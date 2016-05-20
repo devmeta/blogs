@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Devmeta - Account</title>
+	<title>Spaces - Account</title>
 	<meta charset="utf-8"> 
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />

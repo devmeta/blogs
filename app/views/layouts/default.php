@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo isset($meta->title) ? $meta->title . ' - Devmeta': 'Devmeta';?></title>
+	<title><?php echo isset($meta->title) ? $meta->title . ' - Spaces': 'Spaces';?></title>
 	<meta charset="utf-8">
 	<meta name="keywords" content="<?php echo isset($meta->title) ? $meta->title : '';?>" />
 	<meta name="description" content="<?php echo isset($meta->title) ? $meta->title : '';?>" />

@@ -8,7 +8,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                     </button>
-                    <a href="/" class="navbar-brand"><span class="typcn typcn-feather"></span> Devmeta</a>
+                    <a href="/" class="navbar-brand"><span class="typcn typcn-cloud-storage"></span> Spaces</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right navbar-uppercase">
