@@ -1,0 +1,17 @@
+{
+	"name": "bootie/project",
+	"type": "project",
+	"description": "Bootie PHP 5 Framework Integrated Example Project",
+	"keywords": ["php","mvc","framework","project"],
+	"homepage": "http://bootie.devmeta.net",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.0",
+		"bootie/bootie": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "app/classes"
+		}
+	}
+}
