@@ -53,6 +53,9 @@ return array(
         '//assets/js/jquery-2.1.4.min.js',
         '//assets/js/jquery-ui-1.10.4.custom.min.js',
         '//assets/js/bootstrap.min.js',
+        '//assets/js/jquery.waypoints.min.js',
+        '//assets/js/modernizr.js',
+        '//assets/js/rubick_pres.js',        
         '//assets/js/summernote.min.js',
         '//assets/js/dropzone.js',
         '//assets/js/typed.js',
@@ -60,8 +63,8 @@ return array(
         '//assets/js/account/app.js'
     ),
     'css.account' => array(
-        '//assets/css/bootstrap.min.css', 
-        '//assets/css/font-awesome.min.css', 
+        '//assets/css/bootstrap.css', 
+        '//assets/css/rubick.css',
         '//assets/css/typicons/font/typicons.min.css', 
         '//assets/css/summernote.css', 
         '//assets/css/dropzone.css', 
@@ -69,7 +72,7 @@ return array(
         //'//assets/css/source-sans-pro.css',
         '//assets/css/gibson.css',
         '//assets/css/typed.css',
-        '//assets/css/theme.css',
-        '//assets/css/account.css'
+        //'//assets/css/theme.css',
+        //'//assets/css/account.css'
     )
 );

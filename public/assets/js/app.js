@@ -15,10 +15,11 @@ $(function(){
             startDelay: 500,
             backDelay: 3000,
             preStringTyped: function(i){
-              $('.page-bg').hide();
-              $('.page-bg').eq(i).fadeIn(200,function(){
-                $('.page-title').hide();
-                $('.page-title').eq(i).fadeIn(200);  
+              $('.page-bg').fadeOut(500, function(){
+                $(this).eq(i).fadeIn(1000,function(){
+                  $('.page-title').hide();
+                  $('.page-title').eq(i).fadeIn(1000);  
+                });
               });
             }
           });

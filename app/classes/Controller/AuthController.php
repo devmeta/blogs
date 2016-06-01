@@ -1,8 +1,25 @@
 <?php namespace Controller;
 
+define('SALT_LENGTH', 15);
+
 class AuthController extends \Controller\BaseController {
 	
 	static $salt = "qwepoiasdlkj!";
+
+	function hasher($phrase, &$salt = null)
+	{
+		$key = '!@#$%^&*()_+=-{}][;";/?<>.,';
+	    if ($salt == '')
+	    {
+	        $salt = substr(hash('sha512',uniqid(rand(), true).$key.microtime()), 0, SALT_LENGTH);
+	    }
+	    else
+	    {
+	        $salt = substr($salt, 0, SALT_LENGTH);
+	    }
+	 
+	    return hash('sha512',$salt . $key .  $phrase);
+	}
 
 	private function add_session($data){
 		$_SESSION['user_id'] = $data->id;
@@ -24,9 +41,6 @@ class AuthController extends \Controller\BaseController {
 	}	
 
 	public function register(){
-		$exists = (new Post())
-			->where('id','=',1)
-			->select('count');
 
 		extract($_POST);
 
@@ -43,31 +57,26 @@ class AuthController extends \Controller\BaseController {
 			return array('result'=>_l('Auth_Email_Exists') . ' : ' . $email);
 		}
 
+		$username = cleanMe($_POST('username'));
+		$password = cleanMe($_POST('password'));
+		$salt = '';
+		$hashed_password = HashMe($password, $salt);
 
-		$json = "error";
-		$id = 0;
+		$account = new \Model\User();
+		$account->email = $email;
+		$account->username = $username;
+		$account->pass = $hashed_password;
+		$account->salt = $salt;
+		$account->created = TIME;
+		$account->save(1);
 
-		if( ! $exists){
-			/*
-			$id = DB::write("insert into users set 
-				title = '" . $title . "',
-				email = '" . $email . "',
-				pass = '" . sha1($password . self::$salt) . "',
-				lang = '" . LOCALE . "', 
-				username = '" . $username . "',
-				privacy_id = 1,
-				created = " . time() 
-			);*/
+		// $data = DB::query('select * from users where id = ' . $id,1);
 
+		AuthController::add_session($account);
 
-			// $data = DB::query('select * from users where id = ' . $id,1);
+		// sendmail($email,"Tu Blog {$title} ha sido creado",'emails.welcome',$data);
 
-			AuthController::add_session($data);
-
-			// sendmail($email,"Tu Blog {$title} ha sido creado",'emails.welcome',$data);
-
-			$json = "ok";
-		} 
+		$json = "ok";
 
 		return array(
 			'result' 	=> 	$json,

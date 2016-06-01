@@ -11,7 +11,7 @@
                             <div class="slick-dotted">
                             <?php foreach($entry->files() as $file) : if( ! isset($file->name)) continue;?>
                                 <div class="image">
-                                    <img class="img-responsive" src="/upload/posts/sd/<?php echo $file->name;?>" width="100%">
+                                    <img class="img-responsive" src="/upload/posts/sd-<?php echo $file->name;?>" width="100%">
                                 </div>
                             <?php endforeach;?>
                             </div>

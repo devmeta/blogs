@@ -1,9 +1,9 @@
 html {height: 100%;}
 body {
   -webkit-font-smoothing: antialiased;
-  background: #fc0; /* fallback for old browsers */
+  background: #FDFDFD; /* fallback for old browsers */
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
   height: 100%;
   position: relative;
   font-family: "Gibson Light";
@@ -98,7 +98,6 @@ h4 small {
   font-family: "Gibson Bold";
   display: inline-block;
   padding: 10px;
-  padding-top: 8px;
   font-size: 1em;
   text-transform: uppercase;
   text-decoration: none;

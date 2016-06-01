@@ -13,7 +13,7 @@ App::route('/update-pass', 	[ 'uses' => 'Controller\AuthController@update_passwo
 App::route('/logout', 	[ 'uses' => 'Controller\AuthController@logout']);
 
 /* private */
-App::route('/account', 	[ 'uses' => 'Controller\accountController@index','before' => 'auth.account']);
+App::route('/account', 	[ 'uses' => 'Controller\AccountController@index','before' => 'auth.account']);
 App::resource('/account/posts', [ 'uses' => 'Controller\PostController','before' => 'auth.account']);
 App::resource('/account/words', [ 'uses' => 'Controller\WordController','before' => 'auth.account']);
 App::route('/account/tags/relation/remove/(\d+)', [ 'uses' => 'Controller\TagController@remove_relation','method' => 'post','before' => 'auth.account']);

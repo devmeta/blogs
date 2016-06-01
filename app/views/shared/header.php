@@ -26,7 +26,7 @@
                                 <span class="typcn typcn-mail"></span>
                             </a>
                             <?php if(session('user_id')):?>
-                                <a href="/logout" title="<?php print locale('logout');?>" data-placement="right"><span class="typcn typcn-key-outline"></span></a>
+                                <a href="/account" title="<?php print locale('account');?>" data-placement="right"><span class="typcn typcn-cloud-storage"></span></a>
                             <?php else:?>
                                 <a href="/login" title="<?php print locale('login');?>" data-placement="right"><span class="typcn typcn-key"></span></a>
                             <?php endif;?>
@@ -52,8 +52,7 @@
                             </div>
                         </li>
                     </ul>
-
-
+                </div>
                 <!-- /.navbar-collapse -->
             </div>
         </nav>

@@ -18,7 +18,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="project add-animation animation-1 animate">
                             <a class="img-class" href="/blog/<?php echo $post->slug;?>">
-                               <img src="/upload/posts/sd/<?php echo count($post->files()) ? $post->files()[0]->name : 'default.png';?>" width="100">
+                               <img src="/upload/posts/sd-<?php echo count($post->files()) ? $post->files()[0]->name : 'default.png';?>" width="100">
                             </a>
                             <div class="over-area over-area-sm color-1">
                                 <div class="content">

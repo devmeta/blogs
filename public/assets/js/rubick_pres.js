@@ -84,10 +84,17 @@ $(document).ready(function(){
 
     $(".content").desktop({
         'controllers' : {
+          login : {
+            init : function(){
+              setTimeout(function(){
+                $('input[name="email"]').focus();
+              },100)
+            }
+          },
           landing : {
             init : function(){
               var typed = [];
-              $('.page-title').hide();$('.page-bg').hide();
+              $('.page-bg,.page-title').hide();
               $('.index-caption').each(function(){
                 typed.push($(this).text());
               });
@@ -97,7 +104,7 @@ $(document).ready(function(){
                 startDelay: 500,
                 backDelay: 3000,
                 preStringTyped: function(i){
-                  $('.page-bg').hide();$('.page-title').hide();
+                  $('.page-bg,.page-title').hide();
                   $('.page-bg').eq(i).fadeIn(200,function(){
                     $('.page-title').hide();
                     $('.page-title').eq(i).fadeIn(200);  

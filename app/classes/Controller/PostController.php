@@ -8,7 +8,9 @@ class PostController extends \Controller\BaseController {
 
 		$entries = \Model\Post::paginate([
 			'updated' => "DESC"
-		],null,10);
+		],[
+			'user_id' => session('user_id')
+		],10);
 
 		return \Bootie\App::view('account.posts.index',[
 			'entries'	=> $entries
