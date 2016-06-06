@@ -1,0 +1,977 @@
+*** 12:35:48
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:35:48
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:39:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:39:31
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:49:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:49:09
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:49:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:49:30
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:49:53
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:49:53
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:50:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:50:43
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:51:43
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:51:43
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:52:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 12:52:48
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 12:54:59
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:15:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:15:11
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:16:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:16:47
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:18:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:18:38
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:19:23
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:19:23
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:25:04
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:25:04
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:26:35
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:26:35
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:26:46
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:26:46
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:26:53
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:27:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:27:52
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:28:16
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:28:16
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:28:33
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:28:33
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:28:53
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:28:53
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:29:22
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:29:23
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:29:45
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:29:45
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:29:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:29:58
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:30:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:30:11
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:30:32
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:30:32
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:30:51
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:30:52
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:42:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:42:27
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 13:42:38
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:43:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:43:09
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 13:43:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 13:43:24
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:03:19
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:03:19
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:03:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:03:58
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:05:15
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:05:15
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:13:18
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:13:18
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:13:20
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:13:25
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:13:25
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:14:50
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:14:50
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:15:23
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:15:23
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:16:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:16:21
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:16:38
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:16:38
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:17:35
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:17:35
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:18:36
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:18:37
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:21:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:21:27
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:24:07
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:24:07
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:24:29
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:24:29
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:25:30
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:25:30
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:28:08
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:28:08
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:28:17
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:28:17
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:28:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:28:27
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:29:52
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:29:52
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:30:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:30:31
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:31:11
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:31:11
+method: index
+view: index
+["posts"]
+PostsController->index
+POST [{"search":""}]
+*** 14:36:23
+method: index
+view: index
+["home"]
+HomeController->index
+POST [{"search":""}]
+*** 14:36:30
+method: login
+view: 
+["auth","login"]
+AuthController->login
+POST [{"email":"books","password":"coala090"}]
+*** 14:36:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:36:31
+method: index
+view: index
+["admin"]
+AdminController->index
+POST [{"search":""}]
+*** 14:36:33
+method: post_46
+view: 
+["admin","post","46"]
+AdminController->post
+POST [{"search":""}]
+*** 14:36:34
+method: posts_tags_all
+view: 
+["admin","posts","tags","all"]
+AdminController->posts_tags_all
+POST [{"post_id":"46"}]
+*** 14:36:34
+method: files_46
+view: 
+["posts","files","46"]
+PostsController->files
+*** 14:36:37
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:37:24
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:37:24
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:37:55
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:37:55
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:38:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:38:10
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:38:28
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:38:28
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:38:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:38:42
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:39:09
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:39:09
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:39:46
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:39:46
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:39:56
+method: upload
+view: 
+["profile","upload"]
+ProfileController->upload
+POST [{"post_id":"undefined","section":"avatar"}]
+*** 14:40:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:40:10
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:40:39
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:40:39
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:40:46
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:40:46
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:03
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:10
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:10
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:23
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:23
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:36
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:36
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:47
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:47
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:41:58
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:41:58
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:42:36
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:42:36
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:43:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:43:27
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:43:57
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:43:57
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:45:31
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:45:31
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:46:03
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:46:03
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:47:42
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:47:42
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 14:49:27
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 14:49:27
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 15:00:21
+method: detect
+view: 
+["api","detect"]
+ApiController->detect
+POST [{"id":"es"}]
+*** 15:00:21
+method: account
+view: 
+["admin","account"]
+AdminController->account
+POST [{"search":""}]
+*** 15:00:56
+method: settings
+view: 
+["admin","settings"]
+AdminController->settings
+POST [{"search":""}]
+*** 15:01:06
+method: posts
+view: 
+["admin","posts"]
+AdminController->posts
+POST [{"search":""}]
+*** 15:01:08
+method: geodata
+view: 
+["admin","geodata"]
+AdminController->geodata
+POST [{"search":""}]
+*** 17:40:24
+method: index
+view: index
+["admin"]
+AdminController->index
+POST [{"search":""}]

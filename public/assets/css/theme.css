@@ -64,6 +64,20 @@ h4 small {
   color:#fff!important;
 }
 
+.pad-fix {
+  padding: 0!important;
+  margin: 0!important
+}
+
+.cover {
+  -webkit-background-size: contain!important;
+  -moz-background-size: contain!important;
+  -o-background-size: contain!important;
+  background-size: contain!important;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
 .page-header {
   border-bottom: 1px solid #BBB;
 }

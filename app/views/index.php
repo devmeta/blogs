@@ -1,22 +1,48 @@
             <div class="section section-header">
-                <div class="parallax pattern-image">
-                <?php for($i=0; $i< 4; $i++):?>
-                    <div class="page-bg" style="background-image:url(/assets/img/page-bg-<?php print $i;?>.jpg)">                    </div>
-                <?php endfor;?>
-                    <div class="container">
-                        <div class="content">
-                        <?php $icons=['thumbs-up','coffee','watch','heart'];for($i=0; $i< 4; $i++):?>
-                            <h2 class="index-caption hide"><?php print locale('index_' . $i . '_caption');?></h2>
-                            <h3 class="text-left"><span class="page-title"><span class="typcn typcn-<?php print $icons[$i];?>"></span> <?php print locale('index_' . $i . '_title');?></span></h3>
-                        <?php endfor;?>
-                            <h2 class="text-left"><span class="page-caption"></span></h2>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 pad-fix">
+                    <div class="parallax pattern-image">
+                    <?php for($i=0; $i< 4; $i++):?>
+                        <div class="page-bg" style="background-image:url(/assets/img/page-bg-<?php print $i;?>.jpg)">                    </div>
+                    <?php endfor;?>
+                        <div class="container">
+                            <div class="content">
+                            <?php $icons=['thumbs-up','coffee','watch','heart'];for($i=0; $i< 4; $i++):?>
+                                <h2 class="index-caption hide"><?php print locale('index_' . $i . '_caption');?></h2>
+                                <h3 class="text-left"><span class="page-title"><span class="typcn typcn-<?php print $icons[$i];?>"></span> <?php print locale('index_' . $i . '_title');?></span></h3>
+                            <?php endfor;?>
+                                <h2 class="text-left"><span class="page-caption"></span></h2>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 pad-fix">
+                    <div class="parallax two-rows">
+                        <div class=" cover" style="background-image:url(/assets/img/page-bg-25.jpg)"></div>
+                        <div class="container">
+                            <div class="content">
+                                <h2 class="index-caption hide">First</h2>
+                                <h3 class="text-left">First title</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parallax two-rows">
+                        <div class="cover" style="background-image:url(/assets/img/page-bg-24.jpg)"></div>
+                        <div class="container">
+                            <div class="content">
+                                <h2 class="index-caption hide">Second</h2>
+                                <h3 class="text-left">Second title</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div><div class="clearfix"></div>
+
+
                 <a href="" data-scroll="true" data-id="#whatWeDo" class="scroll-arrow hidden-xs hidden-sm" data-external="true">
                 <span class="typcn typcn-chevron-right"></span>
                 </a>
-            </div>
+            </div><div class="clearfix"></div>
 
             <div class="section section-we-do-2" id="whatWeDo">
                 <div class="container">

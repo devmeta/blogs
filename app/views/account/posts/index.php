@@ -1,9 +1,11 @@
-<div class="content-height">
-	<div class="col-md-12 center-block">
-
-		<div class="row">
-			<div class="col-md-12">
-				<h3>&nbsp;<span class="typcn typcn-pen"></span> Posts <a href="/account/posts/create" role="button" class="text-success" title="Create a new post" data-placement="right"><span class="typcn typcn-document-add"></span></a></h3>
+<div class="section section-we-made-3" id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="title add-animation">
+                <h2><?php echo locale('posts');?></h2>
+                <div class="separator-container">
+                    <div class="separator line-separator"><span class="typcn typcn-cloud-storage"></span></div>
+                </div>
 				<?php echo messages();?>
 			<?php if(count($entries)):?>
 				<table class="table">

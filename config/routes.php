@@ -30,6 +30,6 @@ App::route('/(.*)', [ 'uses' => 'Controller\HomeController@page']);
 /* filters */
 App::filter('auth.account',function(){
 	if( ! session('user_id') || session('group') !== 'account'){
-		return redirect('/login','Your session has expired');
+		return redirect('/login',['warning' => "Your session has expired"]);
 	}
 });
